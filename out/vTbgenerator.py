@@ -198,12 +198,8 @@ initial
 begin
     forever #(PERIOD/2)  clk=~clk;
 end'''
-    rst = '''
-initial
-begin
-    #(PERIOD*2) rst_n  =  1;
-end
-'''
+    rst = " "
+    
     print("%s\n%s" % (clk,rst))
 
     # UUT
@@ -213,8 +209,8 @@ end
     operation = '''
 initial
 begin
-
-    $finish;
+    #10000;
+    $stop;
 end
 '''
     print(operation)
