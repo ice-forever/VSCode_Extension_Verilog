@@ -1,3 +1,14 @@
+# 注意事项！
+
+<b>out/vTbgenerator.py</b>：该文件是VS Code商店中生成TestBench文件的python代码文件。修改了以下内容：
+
+- 删除了生成的复位信号
+
+- 添加了将终端内容保存到文件的功能（命名格式：tb_<处理的文件名>.v）
+
+<b>如果python3提示缺少模块charset，请安装所有缺少的库。</b>
+
+
 # verilog-testbench-instance README
 
 This extension "verilog-testbench-instance" can be used to enhance verilog programming capability. 
