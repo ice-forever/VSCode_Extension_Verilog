@@ -8,6 +8,7 @@
 
 <b>如果python3提示缺少模块charset，请安装所有缺少的库。</b>
 
+[如果一个.v文件中有多个module，请参考该issue修改代码](https://github.com/truecrab/VSCode_Extension_Verilog/issues/9)
 
 # verilog-testbench-instance README
 
